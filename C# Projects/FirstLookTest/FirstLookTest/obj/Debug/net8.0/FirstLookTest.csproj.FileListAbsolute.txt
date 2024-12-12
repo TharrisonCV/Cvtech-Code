@@ -1,0 +1,14 @@
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\bin\Debug\net8.0\FirstLookTest.exe
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\bin\Debug\net8.0\FirstLookTest.deps.json
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\bin\Debug\net8.0\FirstLookTest.runtimeconfig.json
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\bin\Debug\net8.0\FirstLookTest.dll
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\bin\Debug\net8.0\FirstLookTest.pdb
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\obj\Debug\net8.0\FirstLookTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\obj\Debug\net8.0\FirstLookTest.AssemblyInfoInputs.cache
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\obj\Debug\net8.0\FirstLookTest.AssemblyInfo.cs
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\obj\Debug\net8.0\FirstLookTest.csproj.CoreCompileInputs.cache
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\obj\Debug\net8.0\FirstLookTest.dll
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\obj\Debug\net8.0\refint\FirstLookTest.dll
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\obj\Debug\net8.0\FirstLookTest.pdb
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\obj\Debug\net8.0\FirstLookTest.genruntimeconfig.cache
+C:\Users\tyler.harrison\source\repos\FirstLookTest\FirstLookTest\obj\Debug\net8.0\ref\FirstLookTest.dll

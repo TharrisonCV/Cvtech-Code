@@ -1,0 +1,14 @@
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\bin\Debug\net8.0\Giraffe.exe
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\bin\Debug\net8.0\Giraffe.deps.json
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\bin\Debug\net8.0\Giraffe.runtimeconfig.json
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\bin\Debug\net8.0\Giraffe.dll
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\bin\Debug\net8.0\Giraffe.pdb
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\obj\Debug\net8.0\Giraffe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\obj\Debug\net8.0\Giraffe.AssemblyInfoInputs.cache
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\obj\Debug\net8.0\Giraffe.AssemblyInfo.cs
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\obj\Debug\net8.0\Giraffe.csproj.CoreCompileInputs.cache
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\obj\Debug\net8.0\Giraffe.dll
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\obj\Debug\net8.0\refint\Giraffe.dll
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\obj\Debug\net8.0\Giraffe.pdb
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\obj\Debug\net8.0\Giraffe.genruntimeconfig.cache
+C:\Users\tyler.harrison\source\repos\Giraffe\Giraffe\obj\Debug\net8.0\ref\Giraffe.dll

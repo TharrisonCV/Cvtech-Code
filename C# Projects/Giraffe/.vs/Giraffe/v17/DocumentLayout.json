@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tyler.harrison\\source\\repos\\Giraffe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8F6616-C4E1-4087-93C6-B66AB4AC91D7}|Giraffe\\Giraffe.csproj|c:\\users\\tyler.harrison\\source\\repos\\giraffe\\giraffe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8F6616-C4E1-4087-93C6-B66AB4AC91D7}|Giraffe\\Giraffe.csproj|solutionrelative:giraffe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "8497cbc7-42ed-42af-b7cd-1732bb9885be",
+        "Display": 0,
+        "X": 226,
+        "Y": 131,
+        "Width": 1374,
+        "Height": 681,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tyler.harrison\\source\\repos\\Giraffe\\Giraffe\\Program.cs",
+              "RelativeDocumentMoniker": "Giraffe\\Program.cs",
+              "ToolTip": "C:\\Users\\tyler.harrison\\source\\repos\\Giraffe\\Giraffe\\Program.cs",
+              "RelativeToolTip": "Giraffe\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T14:57:14.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

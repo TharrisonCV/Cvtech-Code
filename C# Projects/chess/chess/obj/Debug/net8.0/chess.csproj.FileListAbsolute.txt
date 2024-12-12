@@ -1,0 +1,4 @@
+C:\Users\tyler.harrison\source\repos\chess\chess\obj\Debug\net8.0\chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyler.harrison\source\repos\chess\chess\obj\Debug\net8.0\chess.AssemblyInfoInputs.cache
+C:\Users\tyler.harrison\source\repos\chess\chess\obj\Debug\net8.0\chess.AssemblyInfo.cs
+C:\Users\tyler.harrison\source\repos\chess\chess\obj\Debug\net8.0\chess.csproj.CoreCompileInputs.cache
