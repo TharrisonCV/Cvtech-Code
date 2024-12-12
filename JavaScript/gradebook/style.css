@@ -1,0 +1,35 @@
+input{
+    width: 25vw;
+    height: 2vh;  
+    background-color: rgb(240, 247, 255);
+    border: groove rgba(0, 0, 0, 0.425);
+    color: black;
+}
+
+.outshell {
+    border: 1px solid;
+    padding-left: 20px;
+    box-shadow: 5px 7px grey;
+    margin: 20px;
+}
+
+.gap1{
+    width: .8vw;
+    visibility: hidden;
+}
+.gap2{
+    width: .95vw;
+    visibility: hidden;
+}
+.gap3{
+    width: 1.9vw;
+    visibility: hidden;
+}
+
+button {
+    width: 10vw;
+    height: 3vh;
+    
+    border: solid black 2px;
+    color: black;
+}

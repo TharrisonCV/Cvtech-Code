@@ -1,0 +1,40 @@
+
+
+aside{
+    float: right;
+    border: 1px solid rgb(0, 0, 0);
+    height: 598px;
+    width: 496px;
+}
+section{
+    height: 596px;
+}
+nav
+{border: solid;
+font-size: 35px;}
+
+header{
+    border: solid;
+    height: 80px;
+    font-size: 50px;
+}
+
+.spacer{
+    width: 1200px;
+    border: 0px;
+}
+
+footer{
+    border: solid;
+    font-size: 25px;
+}
+
+
+main{height: 600px; border: 3px solid ; padding: 14px;}
+
+.maininfo{
+    width: 1300px; 
+    border: 1px solid ;
+    height:570px;
+    padding: 14px;
+}

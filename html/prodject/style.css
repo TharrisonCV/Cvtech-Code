@@ -1,0 +1,49 @@
+#Navigation {
+  background: purple;
+  margin: 0%;
+}
+#navbuttons {
+  display: inline-block;
+  padding: 14px 16px;
+}
+a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#clickable {
+  color: #4dff00;
+}
+
+#num2 {
+  float: right;
+  word-wrap: break-word;
+  width: 60%;
+}
+#num1 #num2 {
+  display: inline;
+}
+#num1 {
+  float: left;
+}
+#textdesc {
+  list-style-type: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hometext {
+  color: purple;
+  font-size: large;
+  font-family: cursive;
+}
+
+.headertext {
+  font-style: italic;
+  font-family: fantasy;
+}

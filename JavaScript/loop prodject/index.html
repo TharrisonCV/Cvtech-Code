@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><h1>Number loop</h1></div>
+    <br>
+    <div>
+        <h4>Min</h4>
+        <input type="number" id="min">
+    </div>
+    <div>
+        <h4>Max</h4>
+        <input type="number" id="max">
+    </div>
+    <div>
+        <h4>Increment</h4>
+        <input type="number" id="add">
+    </div>
+    <br>
+    <button id="submit" onclick="submit()">Submit</button>
+    <br>
+    <br>
+    <div>
+        <p id="demo"></p>
+    </div>
+
+    <script>
+        function submit(){
+            let text = "";
+
+            let min=parseInt(document.getElementById("min").value);
+            let max=parseInt(document.getElementById("max").value);
+            let add=parseInt(document.getElementById("add").value);
+
+
+            for (let i = min; i <= max; i += add) {
+                console.log(i);
+                text +=  i + "<br>";
+                
+            }
+
+            document.getElementById("demo").innerHTML = text;
+
+        } 
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>

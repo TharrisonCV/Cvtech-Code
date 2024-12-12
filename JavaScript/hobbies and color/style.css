@@ -1,0 +1,31 @@
+button{
+    width: fit-content;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.test{
+    color: black;
+    display: inline-block;
+    
+}
+
+
+body{
+    background-color: black;
+}
+
+.hobies{
+    float: left;
+}
+
+
+.spacer{
+    width: 25px;
+    border: none;
+    background-color: transparent;
+}
+
+li{color: white;}

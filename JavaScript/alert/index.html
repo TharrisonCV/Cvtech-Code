@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="60" />
+    <meta name="author" content="Tyler" />
+    <meta name="keywords" content="Html, Alert, JavaScript" />
+    <meta name="description" content="A Free Html alert station" />
+    <title>Alert</title>
+    <link
+      href="/JavaScript/alert/favicon (3).ico (3).ico"
+      rel="icon"
+      type="image/x-icon" />
+  </head>
+  <body style="background-color: rgb(0, 255, 170)">
+    <h1>Alert System.</h1>
+    <h5>put a message in then click the X to display your message.</h5>
+    <input
+      type="text"
+      id="uinput"
+      style="
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+        font-size: 50px;
+        overflow: auto;
+        text-align: center;
+        background-color: aqua;
+        color: rgb(143, 115, 115);
+      " />
+    <button
+      style="
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+        background-color: aqua;
+      "
+      onclick="submit();"
+      >x</button
+    >
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <button
+      style="
+        height: 100px;
+        width: 300px;
+        font-size: 30px;
+        background-color: aqua;
+      ">
+      <a href="/JavaScript/oddoreven/index.html">Odd or Even</a></button
+    >
+    <button
+      style="
+        height: 100px;
+        width: 300px;
+        font-size: 30px;
+        background-color: aqua;
+      ">
+      <a href="/JavaScript/buttonmath/index.html">Calculator</a></button
+    >
+
+    <script>
+      alert("Welcome!");
+      console.log("Welcome!");
+      function submit() {
+        let userinput = document.getElementById("uinput").value;
+        alert(userinput);
+        console.log(userinput);
+      }
+    </script>
+  </body>
+</html>

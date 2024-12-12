@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degree Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <input type="text" id="DataEntry" value="°F/C">
+        <input type="text" class="spacer" disabled>
+        <input type="text" id="result" readonly>
+    </div>
+    <br>
+    <div>
+        <form action="" onchange="myFunction()">
+            <input type="radio" name="Selector" id="fahrenheit">
+            <label for="fahrenheit">F</label>
+            <br>
+            <input type="radio" name="Selector" id="Celsius">
+            <label for="Celsius">C</label>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

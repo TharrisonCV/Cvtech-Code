@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="Images/images.png" alt="CV tech logo " width="250px" />
+
+      <h1 class="titletext">Canadian Valley Technology Center</h1>
+      <br />
+      <h1 style="color: black">Practice Employment Application</h1>
+    </header>
+    <br />
+    <!-- This is the  Application Information side-->
+    <div>
+      <h2 align="center" style="background-color: rgb(63, 63, 63); color: white"
+        >Applicant information</h2
+      >
+      <br />
+      <form>
+        Full Name:
+        <input type="text" class="nameinput" placeholder="" />
+        Date:
+        <input type="date" name="" id="" class="dateinput" />
+        <br />
+        <input
+          type="text"
+          placeholder="                             Last                                                                                                                                                                                                First                                                                                                                                                   M.I"
+          style="border: 0px"
+          class="namesub"
+          readonly />
+        <br />
+        <!--Second Line-->
+        Address:
+        <input type="text" class="addressinput" />
+        <br />
+        <input
+          type="text"
+          placeholder="                            Street Adress                                                                                                                                                                                   City                                                                                                                                                   State                                 Zip Code "
+          class="addressunder"
+          readonly />
+        <br />
+        <!--Third Line-->
+        <p class="phone">Phone:</p>
+        <input type="text" class="gapphone" />
+        <input type="text" class="phonenumberinput" />
+        <section class="emailinput">
+          Email:
+          <input type="text" class="emailinputtext" />
+        </section>
+        <br />
+        <br />
+        Date Available: <input type="date" class="dateavail" />
+        <input type="text" class="gap" />
+        Social Security No.:
+        <input type="text" class="social" placeholder="###-##-####" />
+        <input type="text" class="gap" />
+        Desired Salary: <input type="text" class="wantsalary" value="$" />
+        <br />
+        <br />
+        What position are
+        <br />
+        you applying for? <input type="text" class="position" />
+        <br />
+        <br />
+        How did you learn
+        <br />
+        about this position?
+        <input type="text" class="position" />
+        <br />
+        <br />
+        <input
+          type="text"
+          placeholder="                                                                                                                                                    YES            NO                                                                                                                                               YES           NO"
+          class="firstradio"
+          readonly />
+        <br />
+        <div class="citizenbutton">
+          <!-- this is the first button line-->
+          <div class="citizenline">
+            <input type="text" class="spacerline" readonly />
+
+            Are you a citizen of the United States?
+            <input type="text" class="texttobuttonspacing" readonly />
+            <input type="radio" value="yes" name="optradio" />
+            <input type="text" class="buttonspacer" readonly />
+            <input type="radio" value="no" name="optradio" />
+            <input type="text" class="buttontotext" readonly />
+          </div>
+          <div class="citizenline">
+            If no, are you authorized to work in the U.S.?
+            <input type="text" class="texttobuttonspacing" readonly />
+            <input type="radio" value="yes2" name="optradio2" />
+            <input type="text" class="buttonspacer" readonly />
+            <input type="radio" value="no2" name="optradio2" />
+          </div>
+        </div>
+        <br />
+        <input
+          type="text"
+          placeholder="                                                                                                                                                    YES           NO"
+          class="firstradio"
+          readonly />
+        <br />
+        <div class="citizenbutton">
+          <!-- this is the second button line-->
+          <div class="citizenline">
+            <input type="text" class="spacerline" readonly />
+            Have you ever worked for this company?
+            <input type="text" class="texttobuttonspacing2" readonly />
+            <input type="radio" value="yes" name="optradio3" />
+            <input type="text" class="buttonspacer" readonly />
+            <input type="radio" value="no" name="optradio3" />
+            <input type="text" class="buttontotext" readonly />
+          </div>
+          <div class="citizenline">
+            If yes, when?
+            <input type="text" class="workedcompany" />
+          </div>
+        </div>
+        <br />
+        <input
+          type="text"
+          placeholder="                                                                                                                                                  YES            NO"
+          class="firstradio"
+          readonly />
+        <br />
+        <div>
+          <div class="citizenbutton">
+            <!-- this is the third button line-->
+            <div class="citizenline">
+              <input type="text" class="spacerline" readonly />
+
+              Have you ever been convicted of a felony?
+              <input type="text" class="texttobuttonspacing3" readonly />
+              <input type="radio" value="yes" name="optradio4" />
+              <input type="text" class="buttonspacer" readonly />
+              <input type="radio" value="no" name="optradio4" />
+              <input type="text" class="buttontotext" readonly />
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="citizenbutton">
+          <input type="text" class="spacerline" readonly />
+          If yes, explain:
+          <input type="text" class="explainfelony" />
+        </div>
+      </form>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--This is the Education side-->
+    <div>
+      <h2 align="center" style="background-color: rgb(63, 63, 63); color: white"
+        >Education</h2
+      >
+      <br />
+      <form>
+        <div>
+          High School: <input type="text" class="educationgap" readonly />
+          <input type="text" class="highschool" />
+          <input type="text" class="educationgap" readonly /> Address:<input
+            type="text"
+            class="addinput" />
+        </div>
+        <br />
+        <div>
+          <input
+            type="text"
+            placeholder="                                                                                                                                                                                                                                                                                               YES                  NO"
+            class="secondradio"
+            readonly />
+          <br />
+          From: <input type="text" class="educationgap" readonly />
+          <input type="text" class="fromto" /><input
+            type="text"
+            class="educationgap"
+            readonly />
+          To: <input type="text" class="fromto" />
+          <input type="text" class="educationgap" readonly />
+          Did you graduate?
+          <input type="text" class="educationgap" readonly />
+          <input type="radio" value="yes" name="optradio5" />
+          <input type="text" class="educationbuttongap" readonly />
+          <input type="radio" value="no" name="optradio5" />
+          <input type="text" class="educationgap" readonly />
+          Diploma:: <input type="text" class="diploma" />
+        </div>
+
+        <div>
+          <br />
+          <br />
+          college: <input type="text" class="collegegap" readonly />
+          <input type="text" class="collegeinput" />
+          <input type="text" class="educationgap" readonly />
+          Adress: <input type="text" class="addinput" />
+          <br />
+          <br />
+          <div>
+            <input
+              type="text"
+              placeholder="                                                                                                                                                                                                                                                                                               YES                  NO"
+              class="secondradio"
+              readonly />
+            <br />
+            From: <input type="text" class="educationgap" readonly />
+            <input type="text" class="fromto" /><input
+              type="text"
+              class="educationgap"
+              readonly />
+            To: <input type="text" class="fromto" />
+            <input type="text" class="educationgap" readonly />
+            Did you graduate?
+            <input type="text" class="educationgap" readonly />
+            <input type="radio" value="yes" name="optradio6" />
+            <input type="text" class="educationbuttongap" readonly />
+            <input type="radio" value="no" name="optradio6" />
+            <input type="text" class="educationgap" readonly />
+            Diploma:: <input type="text" class="diploma" />
+          </div>
+          <br />
+          <br />
+          Other: <input type="text" class="othergap" readonly />
+          <input type="text" class="otherinput" />
+          <input type="text" class="educationgap" readonly /> Address:<input
+            type="text"
+            class="addinput" />
+          <br />
+          <br />
+          <input
+            type="text"
+            placeholder="                                                                                                                                                                                                                                                                                               YES                  NO"
+            class="secondradio" />
+          <br />
+          From: <input type="text" class="educationgap" readonly />
+          <input type="text" class="fromto" /><input
+            type="text"
+            class="educationgap"
+            readonly />
+          To: <input type="text" class="fromto" />
+          <input type="text" class="educationgap" readonly />
+          Did you graduate?
+          <input type="text" class="educationgap" readonly />
+          <input type="radio" value="yes" name="optradio7" />
+          <input type="text" class="educationbuttongap" readonly />
+          <input type="radio" value="no" name="optradio7" />
+          <input type="text" class="educationgap" readonly />
+          Diploma:: <input type="text" class="diploma" />
+        </div>
+        <br />
+        <br /><br />
+        <br /><br /><br /><br /><br /><br />
+        <h5 align="center">1</h5>
+        <hr />
+      </form>
+    </div>
+    <!--This is the References Side-->
+    <div>
+      <br />
+      <br /><br /><br />
+      <br /><br />
+      <br />
+
+      <h2 align="center" style="background-color: rgb(63, 63, 63); color: white"
+        >References</h2
+      >
+      <i class="headrefer">Please list three professional references.</i>
+      <br />
+      <br />
+      <br />
+      <div>
+        Full Name: <input type="text" class="namegap" readonly />
+        <input type="text" class="referenceline1" />
+        <input type="text" class="relationshipgap" readonly />
+        Relationship: <input type="text" class="referenceline2" />
+        <br />
+        <br />
+        Company: <input type="text" class="companygap" readonly />
+        <input type="text" class="referenceline1" />
+        <input type="text" class="phonegaprefer" readonly /> Phone:
+        <input type="text" class="referenceline2" />
+        <br /><br />
+        <input type="text" class="referemail" value="Email:" />
+        <br />
+        <input type="text" class="referemail" />
+      </div>
+      <br /><br />
+      Full Name: <input type="text" class="namegap" readonly />
+      <input type="text" class="referenceline1" />
+      <input type="text" class="relationshipgap" readonly />
+      Relationship: <input type="text" class="referenceline2" />
+      <br />
+      <br />
+      Company: <input type="text" class="companygap" readonly />
+      <input type="text" class="referenceline1" />
+      <input type="text" class="phonegaprefer" readonly /> Phone:
+      <input type="text" class="referenceline2" />
+      <br /><br />
+
+      <input type="text" class="referemail" value="Email:" />
+      <br />
+      <input type="text" class="referemail" />
+      <br />
+      <br />
+      Full Name: <input type="text" class="namegap" readonly />
+      <input type="text" class="referenceline1" />
+      <input type="text" class="relationshipgap" readonly />
+      Relationship: <input type="text" class="referenceline2" />
+      <br />
+      <br />
+      Company: <input type="text" class="companygap" readonly />
+      <input type="text" class="referenceline1" />
+      <input type="text" class="phonegaprefer" readonly /> Phone:
+      <input type="text" class="referenceline2" />
+      <br /><br />
+      Email:
+      <input type="text" class="emailrefergap" readonly />
+      <input type="text" class="referemail2" />
+      <br />
+      <br />
+    </div>
+    <!-- This is previous employment section-->
+    <div>
+      <h2 align="center" style="background-color: rgb(63, 63, 63); color: white"
+        >Previous Employment</h2
+      >
+      <br />
+      <div>
+        Company: <input type="text" class="companygap" readonly />
+        <input type="text" class="companyemploy" />
+        <input type="text" class="gapp" readonly /> Phone:
+        <input type="text" class="referenceline2" /> <br />
+        <br />
+        Address: <input type="text" class="addgap" readonly />
+        <input type="text" class="companyemploy" />
+        <input class="supervisorgap" readonly /> Supervisor:
+        <input type="text" class="referenceline2" />
+        <br />
+        <br />
+        <br />
+        Job title: <input type="text" class="addgap" readonly />
+        <input type="text" class="jobtitle" />
+        <input type="text" class="supervisorgap" readonly /> Starting Salary:
+        <input type="text" class="salaries" value="$" />
+        <input type="text" class="endinggap" readonly /> Ending salary:
+        <input type="text" class="salaries" value="$" />
+        <br />
+        <br />
+        <br />
+        Responsibilites: <input type="text" class="respon" readonly /><input
+          type="text"
+          class="respons" />
+        <br /><br /><br />
+        From: <input type="text" class="fromgap" readonly />
+        <input type="text" class="fromline" />
+        <input type="text" class="fromlinegap" readonly /> To:
+        <input type="text" class="toline" />
+        <input type="text" class="reasongap" readonly />Reason for Leaving:
+        <input type="text" class="leavingreas" />
+        <br />
+        <br />
+        <input
+          type="text"
+          placeholder="                                                                                                                                                                                                             YES                  NO"
+          class="secondradio" />
+        <br />
+        <span class="referencetext"
+          >May we contact your previous supervisor for a reference?</span
+        ><input type="text" class="referencebuttongap" readonly />
+        <input type="radio" value="yes" name="optradio7" />
+        <input type="text" class="educationbuttongap" readonly />
+        <input type="radio" value="no" name="optradio7" />
+        <input type="text" class="referemail" />
+        <br />
+        <input type="text" class="referemail" />
+      </div>
+      <br />
+      <br /><br />
+      <div>
+        Company: <input type="text" class="companygap" readonly />
+        <input type="text" class="companyemploy" />
+        <input type="text" class="gapp" readonly /> Phone:
+        <input type="text" class="referenceline2" /> <br />
+        <br />
+        Address: <input type="text" class="addgap" readonly />
+        <input type="text" class="companyemploy" />
+        <input class="supervisorgap" readonly /> Supervisor:
+        <input type="text" class="referenceline2" />
+        <br />
+        <br />
+        <br />
+        Job title: <input type="text" class="addgap" readonly />
+        <input type="text" class="jobtitle" />
+        <input type="text" class="supervisorgap" readonly /> Starting Salary:
+        <input type="text" class="salaries" value="$" />
+        <input type="text" class="endinggap" readonly /> Ending salary:
+        <input type="text" class="salaries" value="$" />
+
+        <br /><br /><br /><br /><br />
+        <br />
+
+        <h5 align="center">2</h5>
+        <hr />
+        <br />
+        <br />
+        <br /><br />
+        <br /><br /><br /><br /><br /><br />
+        <br />
+        <br />
+
+        <br /><br />
+        <br /><br /><hr /><br /><br /><br /><br />
+        Responsibilites: <input type="text" class="respon" readonly /><input
+          type="text"
+          class="respons" />
+        <br /><br /><br />
+        From: <input type="text" class="fromgap" readonly />
+        <input type="text" class="fromline" />
+        <input type="text" class="fromlinegap" readonly /> To:
+        <input type="text" class="toline" />
+        <input type="text" class="reasongap" readonly />Reason for Leaving:
+        <input type="text" class="leavingreas" />
+        <br />
+        <br />
+        <input
+          type="text"
+          placeholder="                                                                                                                                                                                                             YES                  NO"
+          class="secondradio" />
+        <br />
+        <span class="referencetext"
+          >May we contact your previous supervisor for a reference?</span
+        ><input type="text" class="referencebuttongap" readonly />
+        <input type="radio" value="yes" name="optradio8" />
+        <input type="text" class="educationbuttongap" readonly />
+        <input type="radio" value="no" name="optradio8" />
+      </div>
+      <br />
+      <br />
+    </div>
+    <!-- this is the skills section-->
+    <div>
+      <h2 align="center" style="background-color: rgb(63, 63, 63); color: white"
+        >Skills and Abilities</h2
+      >
+      <br />
+      <br />
+      What skills and abilities qualify you for this position?
+      <input type="text" class="positionline" />
+      <br />
+      <br />
+      <input type="text" class="posline" />
+      <br />
+      <br />
+      <input type="text" class="posline" />
+      <br />
+      <br />
+      Why are you interested in working for this company?
+      <input type="text" class="positionline" />
+      <br />
+      <br />
+      <input type="text" class="posline" />
+      <br />
+      <br />
+    </div>
+    <!-- This is the disclaimer and Signature section-->
+    <div>
+      <h2 align="center" style="background-color: rgb(63, 63, 63); color: white"
+        >Previous Employment</h2
+      >
+      <br />
+      <i
+        >I certify that my answers are true and complete to the best of my
+        knowledge.</i
+      >
+      <br />
+      <br />
+      <i
+        >If this application leads to employment, I understand that false or
+        misleading information in my application or interview may result in my
+        release.</i
+      >
+      <br />
+      <br />
+      Signature: <input type="text" class="respon" readonly />
+      <input type="text" class="companyemploy" />
+      <input type="text" class="respon" readonly /> Date:
+      <input type="date" name="" id="" class="dateinput2" />
+      <br />
+      <br />
+      <br /><br />
+      <br /><br /><br /><br /><br /><br />
+      <br /><br />
+      <br />
+      <br /><br />
+      <br /><br /><br /><br /><br /><br />
+      <br />
+
+      <h5 align="center">3</h5>
+      <hr />
+    </div>
+  </body>
+</html>

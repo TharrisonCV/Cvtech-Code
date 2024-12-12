@@ -1,0 +1,8 @@
+.spacer{
+    width: 5em;
+    border: 0px;
+    background-color: transparent;
+}
+.spacer:hover{
+    cursor:default;
+}

@@ -1,0 +1,11 @@
+#numberslot{
+    resize: none;
+    height: 500px;
+    width: 170px;
+}
+
+#demo 
+{ 
+    color:black;
+    font-size: 2em;
+}

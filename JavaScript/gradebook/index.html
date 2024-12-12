@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GradeBook</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div >
+        <fieldset class="outshell">
+            <legend>Gradebook</legend>
+            <form action="">
+                <h4>
+                First Name
+                <input type="text" readonly class="gap1">
+                <input type="text" id="firstname">
+                <br>
+                Last Name
+                <input type="text" readonly class="gap2">
+                <input type="text" id="lastname">
+                <br>
+                Grade 1
+                <input type="text" readonly class="gap3">
+                <input type="number" id="grade1" max="100" min="1" maxlength="3">
+                <br>
+                Grade 2
+                <input type="text" readonly class="gap3">
+                <input type="number" id="grade2" max="100" min="1" maxlength="3">
+                <br>
+                Grade 3
+                <input type="text" readonly class="gap3">
+                <input type="number" id="grade3" max="100" min="1" maxlength="3">
+                </h4>            
+            </form>
+            <br>
+            <button id="myBtn" onclick="myCalculate()">Calculate</button>
+            <br>
+            <br>
+        </fieldset>
+    </div>
+    <br>
+    <br>
+    <div>
+        <fieldset class="outshell">
+            <legend>Output</legend>
+            <b><p id="name">Full Name</p></b>
+            <br>
+            <p id="1">Grade 1:</p>
+            <p id="2">Grade 2:</p>
+            <p id="3">Grade 3:</p>
+            <p id="avg">Average:</p>
+            <p id="letter">Letter Grade:</p>
+            <p id="end" ></p>
+        </fieldset>
+    </div>
+    <script>
+
+        
+
+
+
+
+        function myCalculate(){
+            // calculates the values of the names and grades.
+
+
+            const firstName=document.getElementById("firstname").value;
+            const lastName=document.getElementById("lastname").value;
+           const  grade1=parseInt(document.getElementById("grade1").value);
+            const grade2=parseInt(document.getElementById("grade2").value);
+           const grade3=parseInt(document.getElementById("grade3").value);
+                
+            let allData= firstName +" "+lastName+" first Grade:"+grade1+" second Grade:"+grade2+" third Grade:"+grade3;
+            //puts information in a string into the console for debugging
+            console.log(allData);
+
+            fullName = firstName +" "+ lastName;
+            // full name puts the name together and the average starts the next function
+         let avg = myAverage(grade1, grade2, grade3);
+           let lgrade = myLetterGrade(avg);
+
+           myDisplay(fullName, grade1, grade2, grade3, avg, lgrade);
+                
+        }
+        
+
+            
+
+
+            
+        function myAverage( grade1, grade2, grade3){
+            var preaverage = grade1+grade2+grade3;
+            var average = preaverage / 3
+            // finds the average rounded
+
+
+           // let number = average;
+            let decimalValue = average.toString().indexOf(".");
+            //orignal number with the many decimals
+            console.log(average);
+                    
+           let averageRounded = average.toFixed(1);
+            // locks the decimals to one tenth mark then the letter grade starts
+           // myLetterGrade();
+           return averageRounded;
+                
+        }
+
+                    
+            
+
+                    
+                    
+        function myLetterGrade(averageRounded){
+            //requird to make the letter grade work.
+            let letterGrade = "NaN"
+
+
+            //this starts the letter sequence.
+            if(averageRounded<59.5){
+                letterGrade = "F";
+            }
+            else if(averageRounded<69.5){
+                    letterGrade = "D";
+            }
+            else if(averageRounded<79.5){
+                    letterGrade = "C";
+            }
+            else if(averageRounded<89.5){
+                    letterGrade = "B";
+            }
+            else if(averageRounded<=100){
+                    letterGrade = "A";
+            }
+           return letterGrade;
+          
+            //starts the display function
+           // myDisplay();
+        }
+                    
+        function myDisplay( fullName, grade1, grade2, grade3, averageRounded, letterGrade){  
+                             
+            //takes all the P tags with ids at the data box and replaces them with the values.
+            document.getElementById("name").innerHTML= "Full Name: "+(fullName);
+            document.getElementById("1").innerHTML= "Grade 1: "+(grade1);
+            document.getElementById("2").innerHTML= "Grade 2: "+(grade2);
+            document.getElementById("3").innerHTML= "Grade 3: "+(grade3);
+            document.getElementById("avg").innerHTML= "Average: "+(averageRounded); 
+            document.getElementById("letter").innerHTML="Letter Grade: "+(letterGrade);
+
+        }
+        
+        
+            
+        
+    </script>
+</body>
+</html>

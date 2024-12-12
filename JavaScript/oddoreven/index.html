@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="60" />
+    <meta name="author" content="Tyler" />
+    <meta name="keywords" content="Html, Numbers, JavaScript" />
+    <meta name="description" content="A Free Html Odd or Even determiner" />
+    <title>Odd or even</title>
+    <link
+      href="/JavaScript/oddoreven/favicon (1).ico"
+      rel="icon"
+      type="image/x-icon" />
+  </head>
+  <body style="background-color: rgb(0, 255, 170)">
+    <h1>Odd or Even?</h1>
+    <h5>Type in a number to see what you will get back.</h5>
+    <input
+      type="text"
+      id="num"
+      style="
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+        font-size: 50px;
+        overflow: auto;
+        text-align: center;
+        background-color: aqua;
+        color: rgb(143, 115, 115);
+      " />
+    <p
+      id="result"
+      style="
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+      "></p>
+    <button
+      style="
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+        background-color: aqua;
+      "
+      onclick="solve();"
+      >Click!</button
+    >
+    <button
+      style="
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+        background-color: aqua;
+      "
+      onclick="wipe();"
+      >Clear!</button
+    >
+
+    <script>
+      function solve(num) {
+        let number = parseInt(document.getElementById("num").value);
+        console.log(number);
+        if (number % 2 == 0) {
+          console.log("Even");
+          document.getElementById("result").innerHTML = "Even";
+        } else {
+          console.log("Odd");
+          document.getElementById("result").innerHTML = "Odd";
+        }
+      }
+      function wipe() {
+        console.log("cleared");
+        document.getElementById("result").innerHTML = "";
+        document.getElementById("num").innerHTML = "";
+      }
+    </script>
+    <br />
+    <br />
+    <br />
+    <button
+      style="
+        height: 100px;
+        width: 300px;
+        font-size: 30px;
+        background-color: aqua;
+      "
+      ><a href="/JavaScript/buttonmath/index.html">Calculator</a></button
+    >
+    <button
+      style="
+        height: 100px;
+        width: 300px;
+        font-size: 30px;
+        background-color: aqua;
+      ">
+      <a href="/JavaScript/alert/index.html">Alert</a></button
+    >
+  </body>
+</html>

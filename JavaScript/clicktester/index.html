@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div align="center">
+      <p class="welcome" onclick="reset()"
+        >Welcome to The click tester! click to reset.</p
+      >
+
+      <p id="result">0</p>
+
+      <button id="clicker" onclick="submit()">CLICK!</button>
+    </div>
+    <script>
+      let num_counter = 0;
+      function reset() {
+        document.getElementById("result").innerHTML = "0";
+        num_counter = 0;
+      }
+      function submit() {
+        num_counter += 1;
+        document.getElementById("result").innerHTML = num_counter;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="indexwhile.html">While Loop</a>
+    <script>
+        let okTowns = ["Yukon", "Mustang", "Bethany", "Union City"];
+        //for loop
+        for (let i = 0; i < okTowns.length; i++){
+            console.log(okTowns[i]);
+        }
+        console.log(" ");
+        console.log("break");
+        console.log(" ");
+        let txTowns = ["Wheeler", "White Deer", "Shamrock", "Dallas"];
+        //for Of loop
+        for (texasTowns of txTowns) console.log(texasTowns);
+
+        console.log(" ");
+        console.log("break");
+        console.log(" ");
+        // for In loop
+        let user = {firstName: "John", lastName: "James"};
+        for(key in user) console.log(user[key]);
+
+        console.log(" ");
+        console.log("break");
+        console.log(" ");
+        //for each loop
+        let cities = ["Los Angles", "HollyWood", "Tulsa", "OKC"];
+
+        cities.forEach( cities => {
+            console.log(cities);
+        })
+
+
+
+
+    </script>
+</body>
+</html>

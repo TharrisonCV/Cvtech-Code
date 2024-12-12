@@ -1,0 +1,8 @@
+button {
+    width: 15vw;
+    height: 3vh;
+    border-radius: 20px;
+    border: dashed black 2px;
+    background-color: transparent;
+    color: rebeccapurple;
+}

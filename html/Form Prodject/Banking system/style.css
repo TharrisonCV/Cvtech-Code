@@ -1,0 +1,124 @@
+.customersname
+{
+    height: 600px;
+    width: 300px;
+
+}
+.outskirt
+{
+    float: left;
+    padding:14px;
+    width: 305px;
+    border-style: groove;
+    height: 685px;
+
+}
+.customerbutton
+{
+    width: 73px;
+    height: 40px;
+}
+textarea {
+    resize: none;
+  }
+
+
+.outsidebarrier
+{
+    padding:20px;
+    border-style: groove;
+    height: 710px;
+
+}
+
+.personaldetail, .accountdetail
+{
+    border:groove ;
+    width: 563px; 
+    height: 620px;
+}
+
+.personaldetail, .outskirt, .accountdetail, .customerimage, .buttonsystem
+{
+    display: inline-block;
+    color: black; 
+    border: groove;
+}
+
+.details
+{
+    width: 449px;
+    height: 35px;
+    border: groove;
+}
+
+.detail1{
+    width:12px ;
+}
+.detail2
+{
+    width: 14px;
+}
+
+.detail5
+{
+    width: 1px;
+}
+
+.detail6
+{
+    width:40px ;
+}
+
+.detail8
+{
+    width:2px ;
+}
+.detail9
+{
+    width:3px ;
+}
+
+.detail1,.detail2,.detail5,.detail6,.detail8,.detail9, .detail10, .detail11,.detail12,.detail13,.detail14
+{
+    border: 0px;
+}
+
+.detail10
+{
+    width: 1px;
+}
+.detail11
+{
+    width: 3px;
+}
+.detail12
+{
+    width: 28px;
+}
+.detail13
+{
+    width:1px;
+}
+.detail14
+{
+    width: 1px;
+}
+
+.customerimage
+{
+    width: 326px;
+    float: right;
+    padding: 14px;
+}
+.protrait
+{
+    width: 300px;
+}
+.buttonsystem
+{
+    border: groove;
+    width: 1513px;
+    height: 82px;
+  
+}

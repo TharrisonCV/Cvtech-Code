@@ -1,0 +1,154 @@
+.outsidebarrier
+{   width: 90%;
+    padding:20px;
+    border-style: groove;
+    height: 750px;
+
+}
+.accountno
+{
+    width: 30%;
+    float: left;
+    padding: 14px;
+    height: 84%;
+}
+#secondDiv{
+    width: 36%;
+    float: left;
+    
+    height: 90%;
+}
+textarea
+{
+    resize: none;
+}
+#textno
+{
+    width: 90%;
+    height: 95%;
+    border:solid;
+    border-right: groove;
+    border-bottom: groove;
+}
+.searchbar
+{
+    border-bottom: groove;
+    border-right: groove;
+    width: 90%;
+}
+.transactiondetails
+{
+    height: 44%;
+}
+
+#imageright
+{
+    float: right;
+    border: 1px solid black;
+    width: 30%;
+    height: 84%;
+    padding: 14px;
+}
+.customerdetail
+{
+    height: 45%;
+}
+
+.imgcustomer
+{
+    width: 100%;
+    height: 70%;
+}
+.bottombuttons
+{
+    border: 1px solid black; 
+    padding: 20px;
+    height: 6%;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.cancelbutton
+{float: right; width: 200px; height: 50px;}
+.transferbutton
+{float: left; width: 200px; height: 50px;}
+
+
+.transferinputdata
+{
+    width: 65%;
+    height: 10%;
+    background-color: lightgray;
+}
+.fixinput
+{
+    background-color: white;
+}
+
+.transferinput1
+{
+    width:100px;
+    border: 0px;
+
+}
+.transferinput2
+{
+    width: 102px;
+    border: 0px;  
+}
+.transferinput3
+{
+    width: 124px;
+    border: 0px;
+}
+.transferinput4
+{
+    width: 82px ;
+    border: 0px;
+}
+.transferinput5
+{
+    width: 119px;
+    border: 0px;
+}
+.transferinput10
+{
+    width: 55px;
+    border: 0px;
+}
+.transferinput6
+{
+    width:60px;
+    border: 0px;
+}
+.transferinput7
+{
+    width:70px;
+    border: 0px;
+}
+.transferinput8
+{
+    width:115px;
+    border: 0px;
+}
+.transferinput9
+{
+    width: 70px;
+    border: 0px;
+}
+.datespacer
+{
+    width: 145px;
+    border: 0px;
+}
+
+#queryinput
+{
+    float: right;
+    width: 70%;
+    height: 60%;
+}
+.queryinputdiv
+{
+    padding: 10px; 
+    padding-right: 30px;
+}

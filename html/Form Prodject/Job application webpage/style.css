@@ -1,0 +1,364 @@
+.titletext {
+  float: right;
+  color: rgb(90, 89, 89);
+  font-size: 50px;
+}
+.headtext {
+  padding: 100px;
+  display: inline-block;
+}
+
+.nameinput {
+  width: 1480px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.dateinput {
+  width: 280px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.addressinput {
+  width: 1820px;
+  float: right;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.phonenumberinput {
+  width: 950px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.emailinput {
+  float: right;
+}
+.emailinputtext {
+  width: 800px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.phone,
+.phonenumberinput {
+  display: inline;
+}
+.gapphone {
+  border: 0px;
+  width: 20px;
+}
+.namesub {
+  width: 1500px;
+}
+.addressunder {
+  width: 1900px;
+  border: 0px;
+}
+.position {
+  width: 1750px;
+  float: right;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.dateavail {
+  width: 475px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.social {
+  width: 490px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.gap {
+  width: 30px;
+  border: 0px;
+}
+.wantsalary {
+  width: 489px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.firstradio {
+  width: 1900px;
+  border: 0px;
+  color: black;
+  font-size: 15px;
+}
+
+.buttonspacer {
+  width: 30px;
+  border: 0px;
+}
+input[type="radio"] {
+  box-sizing: border-box;
+  appearance: none;
+  background: white;
+  outline: 2px solid #333;
+  border: 3px solid white;
+  width: 18px;
+  height: 18px;
+}
+input[type="radio"]:checked {
+  background: #333;
+}
+.texttobuttonspacing {
+  width: 60px;
+  border: 0px;
+}
+
+.texttobuttonspacing2 {
+  width: 27px;
+  border: 0px;
+}
+
+.buttontotext {
+  width: 50px;
+  border: 0px;
+}
+
+.citizenbutton {
+  font-size: 25px;
+}
+
+.citizenline {
+  display: inline;
+}
+.workedcompany {
+  width: 620px;
+  height: 20px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.spacerline {
+  width: 150px;
+  border: 0px;
+}
+.texttobuttonspacing3 {
+  width: 9px;
+  border: 0px;
+}
+.explainfelony {
+  width: 1350px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.highschool {
+  width: 820px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.educationgap {
+  width: 20px;
+  border: 0px;
+}
+.secondradio {
+  width: 1900px;
+  border: 0px;
+}
+.fromto {
+  width: 375px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.educationbuttongap {
+  width: 50px;
+  border: 0px;
+}
+
+.diploma {
+  width: 599px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.collegegap {
+  width: 5px;
+  border: 0px;
+}
+.collegeinput {
+  width: 870px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.addinput {
+  width: 850px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.othergap {
+  width: 10px;
+  border: 0px;
+}
+.otherinput {
+  width: 870px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.namegap {
+  width: 10px;
+  border: 0px;
+}
+.referenceline1 {
+  width: 1100px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.headrefer {
+  font-size: 18px;
+}
+.relationshipgap {
+  width: 50px;
+  border: 0px;
+}
+.referenceline2 {
+  width: 510px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.companygap {
+  width: 15px;
+  border: 0px;
+}
+.phonegaprefer {
+  width: 92px;
+  border: 0px;
+}
+.referemail {
+  width: 1860px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+
+.emailrefergap {
+  width: 38px;
+  border: 0px;
+}
+
+.referemail2 {
+  width: 1765px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.companyemploy {
+  width: 1150px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.gapp {
+  width: 40px;
+  border: 0px;
+}
+.addgap {
+  width: 23px;
+  border: 0px;
+}
+.supervisorgap {
+  width: 14px;
+  border: 0px;
+}
+
+.jobtitle {
+  width: 575px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.salaries {
+  width: 440px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.endinggap {
+  width: 70px;
+  border: 0;
+}
+.respon {
+  width: 15px;
+  border: 0px;
+}
+.respons {
+  width: 1740px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.fromgap {
+  width: 80px;
+  border: 0px;
+}
+.fromline {
+  width: 350px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.fromlinegap {
+  width: 30px;
+  border: 0px;
+}
+.toline {
+  width: 450px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.reasongap {
+  width: 50px;
+  border: 0px;
+}
+.leavingreas {
+  width: 665px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.referencebuttongap {
+  width: 200px;
+  border: 0px;
+}
+.referencetext {
+  font-size: x-large;
+}
+.positionline {
+  width: 1520px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.posline {
+  width: 1870px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.dateinput2 {
+  width: 550px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}

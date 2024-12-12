@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneBook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <fieldset>
+            <legend>PhoneBook</legend>
+            <p class="dattainput">First Name
+            <input type="text" id="firstname"></p>
+            
+            <input type="text" class="spacer" readonly>
+
+            <p class="dattainput">Last Name
+            <input type="text" id="lastname"></p>
+
+            <input type="text" class="spacer" readonly>
+
+            <p class="dattainput">Phone Number
+            <input type="text" id="phonenumber"></p>
+            <br>
+            <br>
+            <button onclick="add()">Add</button>
+            <input type="text" class="spacerb" readonly>
+            <button onclick="view()">View</button>
+        </fieldset>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+    <fieldset id="product">
+        <p><h3>First Name, Last Name, and Phone Number</h3></p>
+        
+        
+    </fieldset>
+    </div>
+    <script>
+        const firstName = []
+        const lastName = []
+        const phoneNum = []
+
+        function add(){
+
+
+            let firstNameId = document.getElementById("firstname").value;
+            let lastNameId = document.getElementById("lastname").value;
+            let phoneNumberId = document.getElementById("phonenumber").value;
+
+            console.log(firstNameId);
+            console.log(lastNameId);
+            console.log(phoneNumberId);
+
+            
+
+            if (/^[a-zA-Z]+$/.test(firstNameId)) {
+                firstName.push(firstNameId);
+            } else {
+                firstName.push("NotValid");
+            }
+            if (/^[a-zA-Z]+$/.test(lastNameId)) {
+                lastName.push(lastNameId);
+            } else {
+                lastName.push("NotValid");
+            }
+            if (/^\d+$/.test(phoneNumberId)) {
+                phoneNum.push(phoneNumberId);
+            } else {
+                phoneNum.push("NotValid");
+            }
+            
+
+            
+           
+
+
+            console.log(firstName);
+            console.log(lastName);
+            console.log(phoneNum);
+
+            
+
+
+
+        }
+       function view(){
+            var x = document.createElement("TABLE");
+            x.setAttribute("id", "myTable" );
+            document.getElementById("product").appendChild(x);
+            let bot = 0;
+            let rowCounter = 1;
+            firstName.forEach(myFunction);
+
+            function myFunction(){
+                while (firstName.length > rowCounter){
+                    document.getElementById("myTable").deleteRow(0);
+                    rowCounter++    
+                }
+                
+                
+                var y = document.createElement("TR");
+                y.setAttribute("id", "myTr");
+                document.getElementById("myTable").appendChild(y);
+
+                var z = document.createElement("TD");
+                z.setAttribute("id", "myTd");
+                document.getElementById("myTr").appendChild(z);
+                var f = document.createTextNode( firstName[bot] +" ");
+                var g = document.createTextNode( lastName[bot] +" ");
+                var h = document.createTextNode( phoneNum[bot]);
+                z.appendChild(f);
+                z.appendChild(g);
+                z.appendChild(h);
+                bot++
+            }
+        }
+        
+    </script>
+</body>
+</html>

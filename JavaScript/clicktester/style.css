@@ -1,0 +1,23 @@
+#clicker {
+  background-color: transparent;
+  width: 125dvh;
+  height: 35dvh;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 25px;
+  border: 1px solid blue;
+}
+body {
+  background-color: palevioletred;
+}
+#clicker:hover,
+.welcome:hover {
+  cursor: crosshair;
+}
+#result {
+  font-size: 15dvh;
+  color: blue;
+}
+.welcome {
+  font-size: 50px;
+}

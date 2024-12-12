@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exponents</title>
+</head>
+<body> 
+    <input type="text" id="num1" name="num1">
+    <br>
+    <label for="num1">Constant</label>
+    <br>
+    <br>
+    <input type="text" id="num2" name="num2">
+    <br>
+    <label for="num2">Exponent</label>
+    <br>
+    <br>
+    <button onclick="myFunction()">Solve</button>
+    <p id="result"></p>
+    
+
+    <script>
+        function myFunction(){
+            let x = document.getElementById("num1").value;
+            let y = document.getElementById("num2").value;
+
+
+            let answer = x ** y ;
+
+            document.getElementById("result").innerHTML = answer;
+        }
+    </script>
+    <noscript>Script does not function on this browser.</noscript>
+</body>
+</html>

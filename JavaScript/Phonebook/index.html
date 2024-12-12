@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhoneBook</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div align="center">
+      <input
+        type="text"
+        class="inputeddata"
+        placeholder="First Name"
+        id="firstname" />
+      <br />
+      <br />
+      <input
+        type="text"
+        class="inputeddata"
+        placeholder="Last Name"
+        id="lastname" />
+      <br />
+      <br />
+      <input
+        type="text"
+        class="inputeddata"
+        placeholder="(000)000-0000"
+        id="phonenumber" />
+    </div>
+    <br />
+    <br />
+    <div align="center">
+      <button id="submit" onclick="submit()">Submit</button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <button
+      ><iframe
+        src="https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms"
+        frameborder="1"></iframe
+    ></button>
+
+    <script>
+      function submit() {
+        let firstName = document.getElementById("firstname").value;
+        let lastName = document.getElementById("lastname").value;
+        let phoneNum = document.getElementById("phonenumber").value;
+
+        var button3 = document.createElement("button");
+        button3.innerHTML = "Save";
+        var button2 = document.createElement("button");
+        button2.innerHTML = "Edit";
+        var button = document.createElement("button");
+        button.innerHTML = "Delete";
+
+        let buttonGroup = button + " " + button2;
+
+        let allData = firstName + " " + lastName + " " + phoneNum;
+
+        console.log(allData);
+
+        var x = document.createElement("TABLE");
+        x.setAttribute("id", "myTable");
+        document.body.appendChild(x);
+        var y = document.createElement("TR");
+        y.setAttribute("id", "myTr");
+        document.getElementById("myTable").appendChild(y);
+
+        var z = document.createElement("TR");
+        var t = document.createTextNode(allData);
+        z.appendChild(t);
+
+        z.appendChild(button2);
+
+        z.appendChild(button3);
+
+        z.appendChild(button);
+
+        document.getElementById("myTr").appendChild(z);
+        var row = document.getElementById("myTr");
+
+        button.addEventListener("click", function () {
+          z.remove();
+          document.getElementById("myTable").style.borderStyle = "none";
+        });
+        button2.addEventListener("click", function () {
+          z.contentEditable = true;
+          z.style.backgroundColor = "#bccfcc";
+          button.disabled = false;
+          button2.disabled = true;
+          button3.disabled = false;
+        });
+        button3.addEventListener("click", function () {
+          z.contentEditable = false;
+          z.style.backgroundColor = "transparent";
+          button.disabled = false;
+          button2.disabled = false;
+          button3.disabled = true;
+        });
+      }
+    </script>
+  </body>
+</html>

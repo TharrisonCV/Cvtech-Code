@@ -1,0 +1,25 @@
+.clean {
+    width: 100vw;
+    height: 50vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BUHRCRmFolwCVuY_uFZl9SUWsBzz5VrXwyvVNQwf3A&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.clean2 {
+    width: 100vw;
+    height: 100vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBdE4OhEf30tpX2o7CWGvq9cEA2DoYNcHKXXa06CpT5A&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+body
+{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.inputeddata{
+    width:50vw ;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+#myTable{
+    text-align: center;
+    font-size: 3em;
+    color: blue;
+    border-color: rgb(255, 255, 255);
+    word-spacing: 2em;
+}
+
+#submit{
+    align-items: center;
+    width: 20em;
+    height: 5em;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#submit:hover{
+    background-color: transparent;
+    color: black;
+}
+#submit:active{
+    background-color: blue;
+    color: white;
+}
+
+#tablediv{
+    border: solid red;
+}
+
+button{
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+}

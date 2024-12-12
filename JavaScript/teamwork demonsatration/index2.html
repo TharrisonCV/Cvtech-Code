@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Selector by Query All</h1>
+    <p class="a">Mike</p>
+    <p class="a">Tyler</p>
+    <h3 class="a">Joe</h3>
+    <p id="demo">bob</p>
+    <p id="demo2">Rocklyn</p>
+    <div id="posted">v</div>
+
+        <script>
+        const collection = document.querySelectorAll(".a");
+        for (let i = 0; i < collection.length; i++) {
+            collection[i].style.backgroundColor = "red";
+        }
+        console.log(collection)
+
+        </script>
+
+    <a href="index.html">link</a>
+</body>
+</html>

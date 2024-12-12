@@ -1,0 +1,14 @@
+p {
+  color: purple;
+}
+
+body {
+  /*align-items: center;*/
+}
+
+img {
+  display: inline-block;
+  margin: 3%;
+  width: 15%;
+  height: 15%;
+}
