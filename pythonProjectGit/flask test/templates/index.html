@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body
+        {
+        background-color:rgb(0,0,0);
+        text-align:center;
+        padding-top:15px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <!--<input name="variable" id="number" type="number">
+        <input type="submit">-->
+        <label for="number" style="font-size:40px; color:green;">Enter a number:</label>
+        <br>
+        <input type="number" id="number" name="number" style="height: 200px; width: 200px; margin: 10px; font-size: 50px; overflow: auto; text-align: center; background-color: aqua; color:rgb(143, 115, 115);">
+        <button type="submit" style="height: 100px; width: 130px; font-size: 30px; background-color: aqua;">Submit</button>
+        <br>
+        <label  style="font-size:40px; color:green;">Result:</label>
+    </form>
+    {% if result is not none %}
+        <p style="font-size: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; color:rgb(100, 150, 230);">The number is {{ result }}.</p>
+    {% endif %}
+</body>
+</html>
