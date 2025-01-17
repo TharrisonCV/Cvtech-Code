@@ -1,0 +1,14 @@
+C:\Users\tyler.harrison\source\repos\triangle\triangle\obj\Debug\net8.0\triangle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyler.harrison\source\repos\triangle\triangle\obj\Debug\net8.0\triangle.AssemblyInfoInputs.cache
+C:\Users\tyler.harrison\source\repos\triangle\triangle\obj\Debug\net8.0\triangle.AssemblyInfo.cs
+C:\Users\tyler.harrison\source\repos\triangle\triangle\obj\Debug\net8.0\triangle.csproj.CoreCompileInputs.cache
+C:\Users\tyler.harrison\source\repos\triangle\triangle\bin\Debug\net8.0\triangle.exe
+C:\Users\tyler.harrison\source\repos\triangle\triangle\bin\Debug\net8.0\triangle.deps.json
+C:\Users\tyler.harrison\source\repos\triangle\triangle\bin\Debug\net8.0\triangle.runtimeconfig.json
+C:\Users\tyler.harrison\source\repos\triangle\triangle\bin\Debug\net8.0\triangle.dll
+C:\Users\tyler.harrison\source\repos\triangle\triangle\bin\Debug\net8.0\triangle.pdb
+C:\Users\tyler.harrison\source\repos\triangle\triangle\obj\Debug\net8.0\triangle.dll
+C:\Users\tyler.harrison\source\repos\triangle\triangle\obj\Debug\net8.0\refint\triangle.dll
+C:\Users\tyler.harrison\source\repos\triangle\triangle\obj\Debug\net8.0\triangle.pdb
+C:\Users\tyler.harrison\source\repos\triangle\triangle\obj\Debug\net8.0\triangle.genruntimeconfig.cache
+C:\Users\tyler.harrison\source\repos\triangle\triangle\obj\Debug\net8.0\ref\triangle.dll
